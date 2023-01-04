@@ -22,11 +22,6 @@ local packer_bootstrap = ensure_packer()
 vim.cmd[[packadd packer.nvim]]
 
 return require("packer").startup(function(use)
--- Color Scheme --
-
--- LuaLine --
-
--- Telescope --  -- vscode-like pictograms -- nvim-cmp source for buffer words -- nvim-cmp source for neovim's built-in LSP -- Completion -- LSP -- optional, for file icons -- optional, updated every week. (see issue #1193)
 	use"eddyekofo94/gruvbox-flat.nvim"
 
 	use{
