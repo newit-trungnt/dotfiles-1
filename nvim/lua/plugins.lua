@@ -14,10 +14,8 @@ local packer_bootstrap = ensure_packer()
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
-  use({
-	"nvim-treesitter/nvim-treesitter",
-	commit = "518e27589c0463af15463c9d675c65e464efc2fe",
-  })
+  -- Color Scheme --
+  use 'eddyekofo94/gruvbox-flat.nvim'
   use {
 	'nvim-lualine/lualine.nvim',
   	requires = { 'kyazdani42/nvim-web-devicons', opt = true }

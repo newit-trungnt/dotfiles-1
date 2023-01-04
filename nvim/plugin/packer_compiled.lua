@@ -94,6 +94,11 @@ _G.packer_plugins = {
     path = "/Users/newit-trnewit-trungntungnt/.local/share/nvim/site/pack/packer/start/diffview.nvim",
     url = "https://github.com/sindrets/diffview.nvim"
   },
+  ["gruvbox-flat.nvim"] = {
+    loaded = true,
+    path = "/Users/newit-trnewit-trungntungnt/.local/share/nvim/site/pack/packer/start/gruvbox-flat.nvim",
+    url = "https://github.com/eddyekofo94/gruvbox-flat.nvim"
+  },
   ["lspkind-nvim"] = {
     loaded = true,
     path = "/Users/newit-trnewit-trungntungnt/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
@@ -128,11 +133,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/newit-trnewit-trungntungnt/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
     url = "https://github.com/nvim-tree/nvim-tree.lua"
-  },
-  ["nvim-treesitter"] = {
-    loaded = true,
-    path = "/Users/newit-trnewit-trungntungnt/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
-    url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = false,
